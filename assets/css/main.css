@@ -3839,3 +3839,8 @@
 	.skills {
 		margin: 0;
 	}
+
+	a.github-link {
+		border: none;
+		font-size: 0.75em;
+	}
