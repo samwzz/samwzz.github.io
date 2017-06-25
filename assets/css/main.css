@@ -3812,3 +3812,35 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+@media (min-width: 760px) {
+	.about {
+		display: flex;
+		justify-content: space-between;
+	}
+	.about p {
+		width: 66%;
+		text-align: left;
+		padding: 40px 0 40px 40px;
+	}
+}
+
+.profile-container {
+	display: flex;
+	justify-content: center;
+}
+
+.profile {
+	display: flex;
+	justify-content: center;
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	overflow: hidden;
+	margin: 15px;
+}
+
+.profile img {
+	height: 100%;
+	width: auto;
+}
